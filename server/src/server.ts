@@ -3,23 +3,28 @@ import express, { request, response } from 'express';
 
 const app = express();
 
+const users = [
+    'Daniel',
+    'Priscila',
+    'Sapup3',
+    'Skater'
+];
+
+
+/* - */
 app.get('/users', (request, response) => {
     console.log('Listagem de usuários');
 
+    return response.json(users);
+});
 
-    //Json
-    response.json([
-        'Daniel',
-        'Priscila',
-        'Sapup3'
-    ]);
+/* - */
+app.get('/users/:id', (request, response) => {
+
 });
 
 
-
-
-
-//
+/* - */
 app.post('/users', (request, response) => {
     const user = {
         name: 'Daniel',
