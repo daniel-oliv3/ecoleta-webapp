@@ -20,7 +20,11 @@ app.get('/users', (request, response) => {
 
 /* - */
 app.get('/users/:id', (request, response) => {
+    const id = Number(request.params.id);
 
+    const user = users[id];
+
+    return response.json(user);
 });
 
 

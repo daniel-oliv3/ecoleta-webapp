@@ -107,14 +107,14 @@ npx create-react-app web --template=typescript
 - **Rotas**: Endereço completo da requisição.
 - **Recurso**: Qual entidade estamos acessando do sistema.
 
-**GET**: Buscar uma ou mais informações no back-end.
-**POST**: Cria uma nova informação no back-end.
-**PUT**: Atualiza uma informação ja existente no back-end.
-**DELETE**: Remove uma informações no back-end.
+- **GET**: Buscar uma ou mais informações no back-end.
+- **POST**: Cria uma nova informação no back-end.
+- **PUT**: Atualiza uma informação ja existente no back-end.
+- **DELETE**: Remove uma informações no back-end.
 
-`POST` http://localhost:3333/users = Criar um usuário.
-`GET` http://localhost:3333/users = Listar.
-`GET` http://localhost:3333/users/5 = Buscar dados do usuário com ID 5.
+- `POST` http://localhost:3333/users = Criar um usuário.
+- `GET` http://localhost:3333/users = Listar.
+- `GET` http://localhost:3333/users/5 = Buscar dados do usuário com ID 5.
 
 
 
@@ -122,7 +122,7 @@ npx create-react-app web --template=typescript
 - **Downloads** - https://insomnia.rest/download
 
 
-
+- **Request Param**: Parâmetro que vem na própria rota que identificam um recurso.
 
 
 
