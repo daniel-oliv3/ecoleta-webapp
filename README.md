@@ -1,5 +1,5 @@
 ## Ecoleta
-### 1 - 
+### 1 - Criação do projeto.
 - Figma - 
 
 ## Ambiente de desenvolvimento
@@ -8,6 +8,10 @@
 
 
 ## Criando o projeto React.js.
+```
+npm init -y
+```
+
 ```
 npm install create-react-app -g
 ```
