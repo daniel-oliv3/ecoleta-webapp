@@ -37,7 +37,19 @@ npx ts-node src/server.ts
 npx tsc --init
 ```
 
+- **Json Viewr** (Google Chrome) `Extenção`
+- Site - https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=pt-BR
 
+- Observa atualizações no projeto, não precisa re-loader.
+
+```
+npm install ts-node-dev -D
+```
+
+**Roda o Projeto**
+```
+npx ts-node src/server.ts
+```
 
 
 
