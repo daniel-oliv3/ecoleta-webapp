@@ -4,9 +4,9 @@
 ## O que é **React**?
 - Biblioteca para construção de interfaces.
 - Utilizado para construção de **Single-Page Applications**.
-- Podemos chamar de framework?
-- Tudo fica dentro do JavaScript.
-- React, ReactJS, React Native.
+- Podemos chamar de **framework**?
+- Tudo fica dentro do **JavaScript**.
+- `React`, `ReactJS`, `React Native`.
 
 ## Exemplo de um **componente React**.
 - `Component Button`.
@@ -96,19 +96,30 @@ npm install ts-node-dev -D
 npm run dev
 ```
 
+- Localhost - http://localhost:3333/users
+
 
 ## Criando o projeto React.
 ```
 npx create-react-app web --template=typescript
 ```
 
+### 2 -
+- Rotas: Endereço completo da requisição.
+- Recurso: Qual entidade estamos acessando do sistema.
 
+- **.**..
 
+- GET: Buscar uma ou mais informações no back-end.
+- POST: Cria uma nova informação no back-end.
+- PUT: Atualiza uma informação ja existente no back-end.
+- DELETE: Remove uma informações no back-end.
 
+- **.**..
 
-
-
-
+- POST http://localhost:3333/users = Criar um usuário.
+- GET http://localhost:3333/users = Listar.
+- GET http://localhost:3333/users/5 = Buscar dados do usuário com ID 5.
 
 
 
