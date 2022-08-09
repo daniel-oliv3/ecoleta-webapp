@@ -4,7 +4,7 @@
   "description": "- Figma -",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ts-node-dev src/server.ts"
   },
   "repository": {
     "type": "git",

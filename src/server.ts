@@ -8,7 +8,8 @@ app.get('/users', (request, response) => {
 
     response.json([
         'Daniel',
-        'Priscila'
+        'Priscila',
+        'Sapup3'
     ]);
 });
 
