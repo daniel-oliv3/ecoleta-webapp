@@ -1,5 +1,39 @@
 ## Ecoleta
-### 1 - Criação do projeto.
+### 1 - React.
+
+## O que é **React**?
+- Biblioteca para construção de interfaces.
+- Utilizado para construção de **Single-Page Applications**.
+- Podemos chamar de framework?
+- Tudo fica dentro do JavaScript.
+- React, ReactJS, React Native.
+
+- Exemplo de um **componente React**.
+- `Component Button`.
+```jsx
+import React from 'react';
+
+import './button.css';
+import icon from './button.png';
+
+function Button(){
+    return (
+        <button>
+            <img src={icon}/>
+        </button>
+    );
+}
+```
+
+## Vantagens
+- Organização do código.
+- Componentização.
+- Divisão de responsabilidades.
+  - Front-end: Interface.
+  - Back-end: Interface.
+- Uma API, múltiplos clientes.
+
+
 - Figma - 
 
 ## Ambiente de desenvolvimento
@@ -32,7 +66,7 @@ npm install ts-node -D
 npx ts-node src/server.ts
 ```
 
-- `tsconfig,json`
+- Criação do arquivo `tsconfig.json`
 ```
 npx tsc --init
 ```
@@ -40,7 +74,7 @@ npx tsc --init
 - **JSON Viewer** (Google Chrome) `Extenção`.
 - Site - https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=pt-BR
 
-- Observa atualizações no projeto, não precisa re-loader.
+- Observa atualizações no projeto, não precisa **re-loader**.
 
 ```
 npm install ts-node-dev -D
@@ -56,6 +90,30 @@ npm install ts-node-dev -D
 ```
 npm run dev
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
