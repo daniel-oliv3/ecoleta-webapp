@@ -32,6 +32,11 @@ npm install ts-node -D
 npx ts-node src/server.ts
 ```
 
+- `tsconfig,json`
+```
+npx tsc --init
+```
+
 
 
 
