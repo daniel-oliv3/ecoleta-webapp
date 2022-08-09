@@ -13,6 +13,7 @@ npm init -y
 ```
 
 **Express**
+- `node_modules`, `packege-lock.json`
 ```
 npm install express
 ```
