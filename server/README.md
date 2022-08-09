@@ -8,7 +8,7 @@
 - Tudo fica dentro do JavaScript.
 - React, ReactJS, React Native.
 
-- Exemplo de um **componente React**.
+## Exemplo de um **componente React**.
 - `Component Button`.
 ```jsx
 import React from 'react';
@@ -30,9 +30,13 @@ function Button(){
 - Componentização.
 - Divisão de responsabilidades.
   - Front-end: Interface.
-  - Back-end: Interface.
+  - Back-end: Regras de negócio.
 - Uma API, múltiplos clientes.
 
+
+
+
+## Projeto.
 
 - Figma - 
 
@@ -41,7 +45,8 @@ function Button(){
 - Visual Studio Code - https://code.visualstudio.com/
 
 
-## Criando o projeto React.js.
+- **.**..
+
 ```
 npm init -y
 ```
@@ -92,7 +97,10 @@ npm run dev
 ```
 
 
-
+## Criando o projeto React.
+```
+npx create-react-app web --template=typescript
+```
 
 
 
