@@ -138,6 +138,12 @@ npx create-react-app web --template=typescript
 
 - Knex.js - https://knexjs.org/
 
+- **Exemplo**:
+- `SELECT * FROM users WHERE name = 'Daniel';`
+- `knex('users').where('name', 'Daniel').select('*');`
+
+### Configurando a conexão com o banco de dados.
+
 
 
 
