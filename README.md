@@ -18,9 +18,8 @@ npm init -y
 npm install express
 ```
 
-
 ```
-npm install create-react-app -g
+npm install @types/express -D
 ```
 
 
