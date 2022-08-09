@@ -3,19 +3,24 @@ import express, { request, response } from 'express';
 
 const app = express();
 
+app.use(express.json());
+
 const users = [
     'Daniel',
     'Priscila',
     'Sapup3',
-    'Skater'
+    'Skater',
+    'Daniela'
 ];
 
 
 /* - */
 app.get('/users', (request, response) => {
-    console.log('Listagem de usuários');
+    const search = String(request.query.search);
 
-    return response.json(users);
+    const filteredUsers = search ? users.filter(user => user.includes(search)) : users;
+
+    return response.json(filteredUsers);
 });
 
 /* - */
@@ -30,9 +35,12 @@ app.get('/users/:id', (request, response) => {
 
 /* - */
 app.post('/users', (request, response) => {
+    const data = request.body;
+
+
     const user = {
-        name: 'Daniel',
-        email: 'danielsapup3@gmail.com'
+        name: data.name,
+        email: data.email
     };
 
     response.json(user);

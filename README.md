@@ -103,10 +103,14 @@ npm run dev
 npx create-react-app web --template=typescript
 ```
 
-### 2 -
+### 2 - React.
+
+## Rotas e recursos.
+
 - **Rotas**: Endereço completo da requisição.
 - **Recurso**: Qual entidade estamos acessando do sistema.
 
+## Métodos HTTP.
 - **GET**: Buscar uma ou mais informações no back-end.
 - **POST**: Cria uma nova informação no back-end.
 - **PUT**: Atualiza uma informação ja existente no back-end.
@@ -122,11 +126,17 @@ npx create-react-app web --template=typescript
 - **Downloads** - https://insomnia.rest/download
 
 
+## Tipos de parâmetros.
+
 - **Request Param**: Parâmetro que vem na própria rota que identificam um recurso.
+- **Query Param**: Parâmetros que vem na própria rota geralmente opcionais para filtros, paginação.
+- **Request Body**: Parâmetros para criação, atualização de informações.
 
 
+## Banco de Dados.
+- **SQL**: Postgres, MySQL, **SQLite**, SQL Server.
 
-
+- Knex.js - https://knexjs.org/
 
 
 
