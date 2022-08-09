@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/daniel-oliv3/ecoleta-webapp/issues"
   },
-  "homepage": "https://github.com/daniel-oliv3/ecoleta-webapp#readme"
+  "homepage": "https://github.com/daniel-oliv3/ecoleta-webapp#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
