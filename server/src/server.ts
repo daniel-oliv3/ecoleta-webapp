@@ -25,6 +25,8 @@ app.post('/users', (request, response) => {
         name: 'Daniel',
         email: 'danielsapup3@gmail.com'
     };
+
+    response.json(user);
 });
 
 
