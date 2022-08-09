@@ -12,16 +12,20 @@
 npm init -y
 ```
 
-**Express**
+**Dependências**
+- Express
 - `node_modules`, `packege-lock.json`
 ```
 npm install express
 ```
-
+- @types
 ```
 npm install @types/express -D
 ```
-
+- Ts-node
+```
+npm install ts-node -D
+```
 
 
 
