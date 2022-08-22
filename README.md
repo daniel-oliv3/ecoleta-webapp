@@ -97,6 +97,11 @@ npm run dev
 
 - Localhost - http://localhost:3333/users
 
+**Rodar o projeto**
+```
+npm start
+```
+
 
 ## Criando o projeto Front-end.
 ```
