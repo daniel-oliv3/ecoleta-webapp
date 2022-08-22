@@ -149,12 +149,17 @@ npx create-react-app web --template=typescript
 
 ### Configurando a conexão com o banco de dados.
 
-**Knex**
+## Knex
+- Site: https://knexjs.org/
+
 ```
 npm install knex
 ```
 
-
+**Sqlite3**
+```
+npm install sqlite3
+```
 
 
 
