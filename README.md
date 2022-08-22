@@ -163,7 +163,7 @@ npm install sqlite3
 
 ##
 
-**Identificando entidades da aplicação
+**Identificando entidades da aplicação**
 - Points (Pontos de coleta)
     - Image
     - Name
