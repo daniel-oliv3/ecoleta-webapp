@@ -161,7 +161,28 @@ npm install knex
 npm install sqlite3
 ```
 
+##
 
+**Identificando entidades da aplicação
+- Points (Pontos de coleta)
+    - Image
+    - Name
+    - Email
+    - Whatsapp
+    - Latitute
+    - Longitude
+    - City
+    - Uf
+
+- Items (Itens para coleta)
+    - Image
+    - Title
+
+- Point_items (Relacionamento dos itens que um ponto coleta)
+    - Pont_id
+    - Item_id
+
+`Muitos para muitos(N-N)(Pivot)`
 
 
 
