@@ -149,7 +149,10 @@ npx create-react-app web --template=typescript
 
 ### Configurando a conexão com o banco de dados.
 
-
+**Knex**
+```
+npm install knex
+```
 
 
 
