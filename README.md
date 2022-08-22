@@ -179,10 +179,37 @@ npm install sqlite3
     - Title
 
 - Point_items (Relacionamento dos itens que um ponto coleta)
-    - Pont_id
+    - Point_id
     - Item_id
 
 `Muitos para muitos(N-N)(Pivot)`
+
+- Migrations = Histórico do banco de dados
+
+**Material Icon Theme**
+- `Extenção VsCode` 
+- Site: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
