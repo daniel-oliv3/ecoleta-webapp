@@ -50,17 +50,17 @@ function Button(){
 npm init -y
 ```
 
-**Dependências**
-- **Express**
+## Dependências
+## Express
 - `node_modules`, `packege-lock.json`
 ```
 npm install express
 ```
-- **@types**
+## @types
 ```
 npm install @types/express -D
 ```
-- **Ts-node**
+## Ts-node
 ```
 npm install ts-node -D
 ```
