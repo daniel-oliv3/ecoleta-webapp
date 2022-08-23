@@ -186,11 +186,17 @@ npm install sqlite3
 
 - Migrations = Histórico do banco de dados
 
-**Material Icon Theme**
-- `Extenção VsCode` 
+**Material Icon Theme** 
 - Site: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
 
+- **Extenção VsCode**
+- Sqlite, para visualizar o banco de dados no VsCode.
+    - `Sqlite`
+- VsCode: **Ctrl** + **shift p**, `>sqlite/open database` 
 
+```
+npx knex migrate:latest --knexfile knexfile.ts migrate:latest
+```
 
 
 

@@ -1,7 +1,7 @@
 import Knex from 'knex';
 
 /* - */
-export async function up(knex: Knex) {
+export async function up(knex: any) {
     //Criar a tabela
     return knex.schema.createTable('points', table => {
         table.increments('id').primary();
@@ -18,8 +18,8 @@ export async function up(knex: Knex) {
 
 
 /* - */
-export async function down({knex: Knex}) {
+export async function down(knex: any) {
     //Voltar atras (Deletar a tabela)
-    return Knex.schema.dropTable('point');
+    return knex.schema.dropTable('point');
 
 }
